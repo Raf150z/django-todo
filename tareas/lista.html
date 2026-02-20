@@ -1,0 +1,13 @@
+<h1>Mis tareas</h1>
+<a href="/crear/">Nueva tarea</a>
+{% for tarea in tareas %}
+
+<div>
+    <h3>{{tarea.titulo}} ✅ {% endif %}</h3>
+    <p>{{tarea.descripcion}}</p>
+    <a href="/editar/{{tarea.id}}">Editar</a>
+    <a href="/eliminar/{{tarea.id}}">Eliminar</a>
+    <a href="/completar/{{tarea.id}}">Completar</a>
+</div>
+
+{% endif %}

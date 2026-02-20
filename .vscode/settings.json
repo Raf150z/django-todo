@@ -1,0 +1,7 @@
+{
+    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+    "python.REPL.enableREPLSmartSend": false
+}
